@@ -21,7 +21,7 @@ public class Exercise2
         System.out.print("What number you want remove? ");
         int number = sc.nextInt();
         
-        if (numbers.remove((Integer)number))
+        if (numbers.remove(Integer.valueOf(number))
         {
             System.out.println("Your number was remove.");
         }else
