@@ -22,7 +22,7 @@ public class Exercise4
         System.out.print("What language you want to check? ");
         String language = sc.nextLine();
         
-        if (languages.remove(language))
+        if (languages.contains(language))
         {
             System.out.print(language + " is in the list.");
         }else
